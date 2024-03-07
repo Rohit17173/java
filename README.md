@@ -130,7 +130,8 @@ Both this and super are keywords in Java used to refer to objects within a class
     }
 
     public void introduce() {
-        System.out.println("Hello, I am " + super.name + " from " + company); // Access name from Person and company from Employee
+        System.out.println("Hello, I am " + super.name + " from " + company);
+// Access name from Person and company from Employee
     }
 }
 ```
