@@ -191,3 +191,5 @@ public class Counter {
 }
 
 ```
+
+It is a variable that is declared with the static keyword inside a class, but outside a method, constructor or a block.
