@@ -95,5 +95,7 @@ public class MyClass {
 ```
 - The instance initializer block sets the value to 10 and prints a message
 - The message is printed before the constructor is called, regardless of which constructor is used.
+
 In summary, instance initializer blocks are a useful tool in Java for initializing instance variables and performing early-stage object setup before constructors are invoked.
+
 
