@@ -42,11 +42,11 @@ Abstraction in object-oriented programming (OOP) is the process of focusing on t
 
 In object-oriented programming (OOP), inheritance is a fundamental mechanism that allows you to create new classes (subclasses) by inheriting the properties and behaviors of existing classes (parent classes or base classes). It establishes an "is-a" relationship between the classes.
 Types of Inheritance in Java:
--  Single Inheritance: A subclass inherits from one parent class. This is the simplest and most common type of inheritance.
--  Multilevel Inheritance: A subclass inherits from another subclass, which itself inherits from another base class, forming a chain of inheritance.
--  Hierarchical Inheritance: Multiple subclasses inherit from a single parent class, creating a hierarchy of related classes.
--  Multiple Inheritance: (Not supported directly in Java) A subclass inherits from multiple parent classes. This can lead to complexity and ambiguity, so Java and other languages like C++ use alternative approaches like interfaces to achieve similar functionality.
--  Hybrid Inheritance: A combination of different inheritance types, such as multilevel and hierarchical inheritance, within the same class hierarchy.
+-  **Single Inheritance**: A subclass inherits from one parent class. This is the simplest and most common type of inheritance.
+-  **Multilevel Inheritance**: A subclass inherits from another subclass, which itself inherits from another base class, forming a chain of inheritance.
+-  **Hierarchical Inheritance**: Multiple subclasses inherit from a single parent class, creating a hierarchy of related classes.
+-  **Multiple Inheritance**: (Not supported directly in Java) A subclass inherits from multiple parent classes. This can lead to complexity and ambiguity, so Java and other languages like C++ use alternative approaches like interfaces to achieve similar functionality.
+-  **Hybrid Inheritance**: A combination of different inheritance types, such as multilevel and hierarchical inheritance, within the same class hierarchy.
 
 3 . **What is Polymorphism? And types of Polymorphism.** ?  
 
@@ -63,8 +63,8 @@ Polymorphism in object-oriented programming (OOP) is the ability of objects of d
 
 In Java, the JVM has several different memory areas that are used to manage the execution of Java programs. These memory areas are collectively known as the Java Memory Model and are divided into three main categories: the Heap, the Stack, and the Method Area.
 
-- ***Heap***: The Heap is the memory area where Java objects are allocated. Its divided into two regions, the Young Generation and the Old Generation, and is managed by the garbage collector. The Heap is where the majority of the memory in a Java program is allocated.
-- Stack: The Stack is a memory area where method-specific data is stored. Each time a method is called, a new frame is added to the top of the stack, and when the method returns, the frame is removed. The Stack is used for storing primitive types, method parameters, and local variables.
-- Method Area: The Method Area is a memory area where the compiled bytecode of a Java program is stored. It contains information about the classes and methods used in the program, including field data, method bytecode, and runtime constant pool. The Method Area is also known as the Permanent Generation (PermGen) in older versions of the JVM.
+- **Heap**: The Heap is the memory area where Java objects are allocated. Its divided into two regions, the Young Generation and the Old Generation, and is managed by the garbage collector. The Heap is where the majority of the memory in a Java program is allocated.
+- **Stack**: The Stack is a memory area where **method-specific** data is stored. Each time a method is called, a new frame is added to the top of the stack, and when the method returns, the frame is removed. The Stack is used for storing **primitive types**, method parameters, and local variables.
+- **Method Area**: The Method Area is a memory area where the **compiled bytecode** of a Java program is stored which has .class extension. It contains information about the classes and methods used in the program, including field data, method bytecode, and runtime constant pool. The Method Area is also known as the Permanent Generation (PermGen) in older versions of the JVM.
 
 
