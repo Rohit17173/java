@@ -158,3 +158,11 @@ public class MathUtil {
 
 - The PI constant is declared final to ensure its value remains unchanged throughout the program.
 - The add method is declared final to prevent accidental or intentional overrides in subclasses that might alter the expected addition behavior.
+
+3 . **Explain access modifiers in Java** ? 
+Access modifiers in Java are keywords used to set the accessibility of classes, attributes, methods and constructors. The four access modifiers in Java are:
+- Public: Public classes, methods, and variables can be accessed from anywhere.
+- Protected: Protected methods and variables can only be accessed within the class itself, subclasses, and classes in the same package.
+- Default (no modifier): Default access modifier means that the class, method, or variable can only be accessed within the same package.
+- Private: Private methods and variables can only be accessed within the class itself.8
+
