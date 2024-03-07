@@ -9,7 +9,7 @@ java.util - this java class contains collection framework which provides a set o
 2 . **What are the relational operators** ?
 -  ==: The equal to operator.
 -  !=: The not equal to operator.
--  >: The greater than operator.
+-  '>': The greater than operator.
 -  <: The less than operator.
--  >=: The greater than or equal to operator.
+-  '>=': The greater than or equal to operator.
 -  <=: The less than or equal to operator.
