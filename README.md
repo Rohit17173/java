@@ -98,4 +98,41 @@ public class MyClass {
 
 In summary, instance initializer blocks are a useful tool in Java for initializing instance variables and performing early-stage object setup before constructors are invoked.
 
+3 . **What are differences between this and super keyword?** ? 
+
+Both this and super are keywords in Java used to refer to objects within a class, but they serve different purposes:
+
+this keyword:
+- Refers to the current object instance: When used within a method or constructor, this refers to the specific object upon which the method is invoked. It allows you to access the object's instance variables and methods within the current context
+``` public class Person {
+    private String name;
+
+    public Person(String name) {
+        this.name = name; // "this.name" refers to the current object's name variable
+    }
+
+    public void setName(String name) {
+        this.name = name; // Update the current object's name
+    }
+}
+```
+super keyword:
+- Refers to the immediate parent class: When used within a subclass, super refers to the parent class object. It's primarily used for two purposes:
+     - Calling the parent class constructor: The super() keyword is used within the subclass constructor to explicitly call the parent class constructor. This ensures proper initialization of inherited members from the parent class.
+     - Accessing parent class methods: You can use super to call methods defined in the parent class, even if they are overridden in the subclass. This allows you to access the parent class's implementation of the method.
+
+  ```
+  public class Employee extends Person {
+    private String company;
+
+    public Employee(String name, String company) {
+        super(name); // Call the Person class constructor to initialize the name
+        this.company = company;
+    }
+
+    public void introduce() {
+        System.out.println("Hello, I am " + super.name + " from " + company); // Access name from Person and company from Employee
+    }
+}
+```
 
