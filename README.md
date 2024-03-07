@@ -74,4 +74,23 @@ An **instance initializer block** in Java is a block of code that is executed ev
 -  Executed after the memory for the object is allocated but before any constructor is called.
 -  Can be multiple instance initializer blocks within a class, executed sequentially in the order they appear in the code.
 
+```
+public class MyClass {
+    private int value;
+
+    { // Instance initializer block
+        value = 10;
+        System.out.println("Initializing value in instance initializer block: " + value);
+    }
+
+    public MyClass() {
+        System.out.println("MyClass constructor called");
+    }
+
+    public MyClass(int value) {
+        this.value = value; // Call the other constructor to initialize value
+    }
+}
+
+```
 
