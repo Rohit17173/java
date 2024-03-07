@@ -121,21 +121,20 @@ Both this and super are keywords in Java used to refer to objects within a class
      - **Calling the parent class constructor**: The super() keyword is used within the subclass constructor to explicitly call the parent class constructor. This ensures proper initialization of inherited members from the parent class.
      - **Accessing parent class methods**: You can use super to call methods defined in the parent class, even if they are overridden in the subclass. This allows you to access the parent class's implementation of the method.
 
-  ```
-  public class Employee extends Person {
+``` public class Employee extends Person {
     private String company;
 
     public Employee(String name, String company) {
-        super(name);// Call the Person class constructor to initialize the name
+        super(name); // Call the Person class constructor to initialize the name
         this.company = company;
     }
 
     public void introduce() {
-        System.out.println("Hello, I am " + super.name + " from " + company);// Access name from Person and company from Employee
+        System.out.println("Hello, I am " + super.name + " from " + company); // Access name from Person and company from Employee
     }
 }
-
 ```
+ 
 - Use this to access the current object's members within the same class.
 - Use super to call the parent class constructor or access parent class members when working with inheritance in subclasses.
  
