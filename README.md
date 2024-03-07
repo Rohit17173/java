@@ -67,4 +67,11 @@ In Java, the JVM has several different memory areas that are used to manage the 
 - **Stack**: The Stack is a memory area where **method-specific** data is stored. Each time a method is called, a new frame is added to the top of the stack, and when the method returns, the frame is removed. The Stack is used for storing **primitive types**, method parameters, and local variables.
 - **Method Area**: The Method Area is a memory area where the **compiled bytecode** of a Java program is stored which has .class extension. It contains information about the classes and methods used in the program, including field data, method bytecode, and runtime constant pool. The Method Area is also known as the Permanent Generation (PermGen) in older versions of the JVM.
 
+3 . **What is an instance initializer block in Java?** ? 
+
+An **instance initializer block** in Java is a block of code that is executed every time an **object** of the class is created. It's used to initialize the instance variables (non-static variables) of an object **before any constructor** is invoked.
+-  Placed within the class body, but outside of any method.
+-  Executed after the memory for the object is allocated but before any constructor is called.
+-  Can be multiple instance initializer blocks within a class, executed sequentially in the order they appear in the code.
+
 
