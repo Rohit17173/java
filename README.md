@@ -55,3 +55,6 @@ Polymorphism in object-oriented programming (OOP) is the ability of objects of d
 -  Compile-time Polymorphism (Method Overloading):
    - Occurs when multiple methods in the same class have the same name but different parameter lists.
    - The compiler determines which method to call based on the number, type, and order of the arguments provided at compile time.
+-  Runtime Polymorphism (Method Overriding):
+   - Occurs when a subclass inherits a method from its parent class and redefines the implementation of that method.
+   - When you call the method on an object of the subclass, the overridden implementation is executed at runtime, even though the method name is inherited from the parent class.
