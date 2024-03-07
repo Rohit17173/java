@@ -26,3 +26,12 @@ Yes, a class can be marked final in Java using the final keyword. Here's what it
 Making a class final:
 -  Prevents inheritance: When a class is declared final, it cannot be extended by other classes. This ensures that the class definition and behavior remain unchanged and cannot be modified by subclasses.
 -  Enforces immutability: If all the fields (instance variables) within a final class are also declared final, the class becomes immutable. This means the object's state cannot be changed after creation, making it thread-safe and potentially improving performance.
+
+
+3 . **What is encapsulation? Explain with real life example.** ?
+
+encapsulation in object-oriented programming (OOP) is a fundamental principle that focuses on bundling data (attributes) and the code that acts on that data (methods) together into a single unit, called a class. It's like creating a capsule that protects the internal workings and exposes only a controlled interface for interaction.
+
+
+3 . **What is encapsulation? Explain with real life example.** ?
+  
