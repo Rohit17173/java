@@ -146,7 +146,6 @@ Yes, a method in Java can be declared as final. This has two main implications
 - Potential performance optimization: The Java compiler might potentially optimize final methods because it knows they won't be overridden and can perform specific optimizations based on the implemented code. However, this is a secondary benefit, and the primary reason for using final methods should be to prevent overriding.
   
 ``` public class MathUtil {
-
     public static final double PI = 3.14159; // Final variable
 
     public static final double add(double a, double b) {
