@@ -139,4 +139,19 @@ Both this and super are keywords in Java used to refer to objects within a class
 - Use this to access the current object's members within the same class.
 - Use super to call the parent class constructor or access parent class members when working with inheritance in subclasses.
 
-3 . **When do we declare a method or class final?** ? 
+3 . **can a method declared as final?** ? 
+
+Yes, a method in Java can be declared as final. This has two main implications
+- Prevents overriding: When a method is declared final in a parent class, it cannot be overridden by subclasses. This enforces the parent class's implementation and prevents unexpected behavior in subclasses.
+- Potential performance optimization: The Java compiler might potentially optimize final methods because it knows they won't be overridden and can perform specific optimizations based on the implemented code. However, this is a secondary benefit, and the primary reason for using final methods should be to prevent overriding.
+  ```public class MathUtil {
+
+    public static final double PI = 3.14159; // Final variable
+
+    public static final double add(double a, double b) {
+        return a + b; // Final method, cannot be overridden
+    }
+}
+```
+- The PI constant is declared final to ensure its value remains unchanged throughout the program.
+- The add method is declared final to prevent accidental or intentional overrides in subclasses that might alter the expected addition behavior.
