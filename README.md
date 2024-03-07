@@ -166,3 +166,5 @@ Access modifiers in Java are keywords used to set the accessibility of classes, 
 - Default (no modifier): Default access modifier means that the class, method, or variable can only be accessed within the same package.
 - Private: Private methods and variables can only be accessed within the class itself.8
 
+3 . **What is the static variable** ?
+
