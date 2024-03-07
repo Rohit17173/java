@@ -1,5 +1,5 @@
-# java interview Questions
-1 : Name some Default packages in jdk And Explain what they do in brief ?
+## java interview Questions
+1 . **Name some Default packages in jdk And Explain what they do in brief** ?
 ``
 the JDK kit include mny default packages that provide useful functionality for java developers. some of the default packages are.
 
