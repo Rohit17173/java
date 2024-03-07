@@ -135,7 +135,6 @@ Both this and super are keywords in Java used to refer to objects within a class
     }
 }
 
-
 ```
 - Use this to access the current object's members within the same class.
 - Use super to call the parent class constructor or access parent class members when working with inheritance in subclasses.
