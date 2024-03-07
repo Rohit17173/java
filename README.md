@@ -33,5 +33,17 @@ Making a class final:
 encapsulation in object-oriented programming (OOP) is a fundamental principle that focuses on bundling data (attributes) and the code that acts on that data (methods) together into a single unit, called a class. It's like creating a capsule that protects the internal workings and exposes only a controlled interface for interaction.
 
 
-3 . **What is encapsulation? Explain with real life example.** ?
-  
+3 . **What is abstraction? Explain with real life example.** ?
+
+Abstraction in object-oriented programming (OOP) is the process of focusing on the essential features and functionalities of an object while hiding the underlying implementation details. It allows you to create a simplified interface for users to interact with, without needing to understand the complex inner workings of the object.
+
+
+3 . **What is inheritence? And types of inheritence.** ?  
+
+In object-oriented programming (OOP), inheritance is a fundamental mechanism that allows you to create new classes (subclasses) by inheriting the properties and behaviors of existing classes (parent classes or base classes). It establishes an "is-a" relationship between the classes.
+Types of Inheritance in Java:
+-  Single Inheritance: A subclass inherits from one parent class. This is the simplest and most common type of inheritance.
+-  Multilevel Inheritance: A subclass inherits from another subclass, which itself inherits from another base class, forming a chain of inheritance.
+-  Hierarchical Inheritance: Multiple subclasses inherit from a single parent class, creating a hierarchy of related classes.
+-  Multiple Inheritance: (Not supported directly in Java) A subclass inherits from multiple parent classes. This can lead to complexity and ambiguity, so Java and other languages like C++ use alternative approaches like interfaces to achieve similar functionality.
+-  Hybrid Inheritance: A combination of different inheritance types, such as multilevel and hierarchical inheritance, within the same class hierarchy.
