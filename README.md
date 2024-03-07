@@ -160,6 +160,7 @@ public class MathUtil {
 - The add method is declared final to prevent accidental or intentional overrides in subclasses that might alter the expected addition behavior.
 
 3 . **Explain access modifiers in Java** ? 
+
 Access modifiers in Java are keywords used to set the accessibility of classes, attributes, methods and constructors. The four access modifiers in Java are:
 - Public: Public classes, methods, and variables can be accessed from anywhere.
 - Protected: Protected methods and variables can only be accessed within the class itself, subclasses, and classes in the same package.
@@ -168,3 +169,25 @@ Access modifiers in Java are keywords used to set the accessibility of classes, 
 
 3 . **What is the static variable** ?
 
+In Java, a static variable, also known as a class variable, is a variable declared with the static keyword within a class. Here's what it means:
+
+**Key Characteristics**:
+- **Shared across all objects**: Unlike instance variables (non-static variables) that are unique to each object, a static variable exists as a single copy shared by all instances of the class.
+- **Memory allocation**: A static variable is allocated in memory only once when the class is loaded, not for each object creation.
+- **Access**: Static variables can be accessed using the class name followed by the dot operator (.) or directly within static methods of the same class, without needing an object instance.
+- **Stored**: static variables are stored in method area.
+
+```
+public class Counter {
+    private static int count = 0; // Static variable
+
+    public static void increment() {
+        count++;
+    }
+
+    public static int getCount() {
+        return count;
+    }
+}
+
+```
