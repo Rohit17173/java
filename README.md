@@ -47,3 +47,11 @@ Types of Inheritance in Java:
 -  Hierarchical Inheritance: Multiple subclasses inherit from a single parent class, creating a hierarchy of related classes.
 -  Multiple Inheritance: (Not supported directly in Java) A subclass inherits from multiple parent classes. This can lead to complexity and ambiguity, so Java and other languages like C++ use alternative approaches like interfaces to achieve similar functionality.
 -  Hybrid Inheritance: A combination of different inheritance types, such as multilevel and hierarchical inheritance, within the same class hierarchy.
+
+3 . **What is Polymorphism? And types of Polymorphism.** ?  
+
+Polymorphism in object-oriented programming (OOP) is the ability of objects of different classes to respond differently to the same method call, based on their specific type. It allows for flexible and dynamic behavior in your programs, making them more adaptable and reusable.
+
+-  Compile-time Polymorphism (Method Overloading):
+   - Occurs when multiple methods in the same class have the same name but different parameter lists.
+   - The compiler determines which method to call based on the number, type, and order of the arguments provided at compile time.
