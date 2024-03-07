@@ -16,5 +16,6 @@ java.util - this java class contains collection framework which provides a set o
 
 
 2 . **What are concrete methods and abstract methods** ?
+
 Constructors are not meant to return a value because they are not methods. They are called automatically when an object is created, and their job is to initialize the object's state.
 If a constructor were to return a value, it would be unclear what that value would represent. It would not be the object itself, because the object has already been created. It could not be a reference to the object, because the object is already in scope.
